@@ -5,8 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp12132"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Рассчет интеграла" Height="435" Width="800" MinHeight="200" MinWidth="350">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width ="auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height ="auto"/>
+            <RowDefinition Height ="auto"/>
+            <RowDefinition Height ="auto"/>
+            <RowDefinition Height ="auto"/>
+            <RowDefinition Height ="auto"/>
+            <RowDefinition Height ="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="2" Grid.Row="0" FontStyle="Oblique" HorizontalAlignment="Right"> Магомедсайгитов.М.М. 3-47</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="1">Верхний предел</TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="1">Нижний предел</TextBlock>
+        <TextBox Name="tbUpperBound" Grid.Row="1" Grid.Column="2" Margin="5 0 0 0"></TextBox>
+        <TextBox Name="tbLowerBound" Grid.Row="2" Grid.Column="2" Margin="5 0 0 0"></TextBox>
+        <TextBlock Grid.Row="3" Grid.Column="1">Количество разбиений</TextBlock>
+        <TextBox Name="tbCount" Grid.Row="3" Grid.Column="2" Margin="5 0 0 0"></TextBox>
+        <Button Name="btnCalculate" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Click="btnCalculate_Click">Рассчитать</Button>
+        <TextBlock Grid.Row="4" Grid.Column="1"> Метод рассчета</TextBlock>
+        <ComboBox Name="cmbBoxIntegralType" Margin="5 0 0 0" Grid.Row="4"  Grid.Column="2">
+            <ComboBoxItem>Метод средних прямоугольников</ComboBoxItem>
+            <ComboBoxItem>Метод трапеций</ComboBoxItem>
+        </ComboBox>
+        <TextBlock Grid.Row="6" Grid.Column="1">Результат:</TextBlock>
+        <TextBox Name="tbAnswer" Grid.Row="6" Grid.Column="2" Margin="10 0 0 0"></TextBox>
 
     </Grid>
 </Window>

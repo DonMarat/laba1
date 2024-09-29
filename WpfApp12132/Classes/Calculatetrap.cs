@@ -1,0 +1,19 @@
+﻿using System;
+using System.Linq;
+
+namespace WpfApp12132.Classes
+{
+    class Calculatetrap: Icalculatorintegral
+    {
+        public double Calculate(double lower, double upper, int count, Func<double, double> func)
+        {
+            double h = (upper - lower) / count;
+            double sum = 0.0;
+            for (int i = 0; i < count; i++)
+            {
+                sum += func(lower + i * h);
+            }
+            return h * sum;
+        }
+    }
+}
