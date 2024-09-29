@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\labaaa1\\WpfApp12132\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB38D6D-3869-4EA9-8CDC-52D1139531C7}|WpfApp12132\\WpfApp12132.csproj|c:\\labaaa1\\wpfapp12132\\wpfapp12132\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB38D6D-3869-4EA9-8CDC-52D1139531C7}|WpfApp12132\\WpfApp12132.csproj|solutionrelative:wpfapp12132\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\labaaa1\\WpfApp12132\\WpfApp12132\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp12132\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\labaaa1\\WpfApp12132\\WpfApp12132\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp12132\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T12:37:04.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
