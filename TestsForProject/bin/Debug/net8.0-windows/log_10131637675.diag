@@ -1,0 +1,15 @@
+2024-10-13T16:55:37.6843910+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.3.2+49017640426456ff3161d0ecac51820db47fdc9b
+2024-10-13T16:55:37.7029849+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2024-10-13T16:55:37.7058967+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2024-10-13T16:55:37.7059096+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 16:55:37.641
+2024-10-13T16:55:37.7094786+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 21208
+2024-10-13T16:55:37.7097654+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.8
+2024-10-13T16:55:37.7097959+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Private.CoreLib.dll
+2024-10-13T16:55:37.7098121+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2024-10-13T16:55:37.7098163+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\labaaa1\WpfApp12132\TestsForProject\bin\Debug\net8.0-windows\TestsForProject.dll
+2024-10-13T16:55:37.7102704+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\labaaa1\WpfApp12132\TestsForProject\bin\Debug\net8.0-windows --results-directory C:\labaaa1\WpfApp12132\TestResults --client-port 51199'
+2024-10-13T16:55:37.7135515+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2024-10-13T16:55:37.7517643+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2024-10-13T16:55:37.7571964+00:00 Microsoft.Testing.Platform.Configurations.JsonConfigurationSource+JsonConfigurationProvider INFORMATION Config file 'C:\labaaa1\WpfApp12132\TestsForProject\bin\Debug\net8.0-windows\TestsForProject.testingplatformconfig.json' not found.
+2024-10-13T16:55:37.7588185+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2024-10-13T16:55:37.9934311+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTest.Sdk' Version: '3.5.1' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
