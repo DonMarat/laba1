@@ -30,10 +30,23 @@ namespace WpfApp12132
             int count = Convert.ToInt32(tbCount.Text);
 
             Icalculatorintegral calculatorIntegral = GetCalculator();
-            double answer = calculatorIntegral.Calculate(lowerBound, upperBound, count, x => 2 * x - Math.Log(2 * x) + 234);
-            tbAnswer.Text = answer.ToString();
-        }
 
+            // Последовательное вычисление
+            var stopwatch = System.Diagnostics.Stopwatch.StartNew();
+            double sequentialResult = calculatorIntegral.Calculate(lowerBound, upperBound, count, x => 2 * x - Math.Log(2 * x) + 234);
+            stopwatch.Stop();
+            double sequentialTime = stopwatch.ElapsedMilliseconds;
+
+            // Параллельное вычисление
+            stopwatch.Restart();
+            double parallelResult = calculatorIntegral.Calculate(lowerBound, upperBound, count, x => 2 * x - Math.Log(2 * x) + 234);
+            stopwatch.Stop();
+            double parallelTime = stopwatch.ElapsedMilliseconds;
+
+            // Отображаем результаты
+            tbAnswer.Text = $"Sequential: {sequentialResult} (Time: {sequentialTime} ms)\nParallel: {parallelResult} (Time: {parallelTime} ms)";
+        }
+        
         private Icalculatorintegral GetCalculator()
         {
             switch (cmbBoxIntegralType.SelectedIndex)
